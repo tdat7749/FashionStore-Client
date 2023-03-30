@@ -1,0 +1,27 @@
+.newsWrapper {
+    width: 100%;
+}
+
+.newsImage {
+    width: 100%;
+}
+
+.newsContent {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.newsCreatedAt {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.newsTitle {
+    font-size: 1.8rem;
+    color: var(--text);
+    font-weight: 500;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

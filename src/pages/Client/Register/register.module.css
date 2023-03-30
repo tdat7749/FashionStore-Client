@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.formWrapper {
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:767px) {
+    .container {
+        width: 90%;
+    }
+}

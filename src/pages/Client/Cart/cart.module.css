@@ -1,0 +1,171 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cartContainer {
+    width: 100%;
+}
+
+.cartDetails {
+    flex-grow: 2;
+    margin-bottom: 2rem;
+}
+
+.cartPriceWrapper {
+    margin-left: auto;
+    flex-grow: 1;
+    width: 350px;
+    max-width: 350px;
+
+}
+
+.img {
+    width: 80px;
+    object-fit: cover;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.btnXoa {
+    cursor: pointer;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.cart {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--primary);
+}
+
+.cartWrapperPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cartWrapperPrice h3 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.cartWrapperPrice p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.cartTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cartTotal h3 {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.cartTotal p {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.btnCheckOut {
+    width: 100%;
+    margin-top: 2rem;
+    height: 5rem;
+}
+
+.cartEmpty {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--text);
+}
+
+.tableCart {
+    overflow: auto;
+}
+
+.breadcrumb {
+    width: 100%;
+    background-color: var(--primary);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .cartContainer {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .cartDetails {
+        flex-grow: 0;
+        width: 100%;
+    }
+
+    .cartPriceWrapper {
+        flex-grow: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:767px) {
+    .container {
+        width: 95%;
+    }
+
+    .cartContainer {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .cartDetails {
+        flex-grow: 0;
+        width: 100%;
+    }
+
+    .cartPriceWrapper {
+        flex-grow: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container {
+        width: 95%;
+    }
+
+    .cartContainer {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    .cartDetails {
+        flex-grow: 0;
+        width: 100%;
+    }
+
+    .cartPriceWrapper {
+        flex-grow: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+}

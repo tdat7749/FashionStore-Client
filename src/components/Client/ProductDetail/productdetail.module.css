@@ -1,0 +1,134 @@
+.container {
+    flex: 1 1 0;
+    padding: 1rem;
+}
+
+.nameWrapper {
+    width: 100%;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid var(--text);
+}
+
+.nameWrapper h4 {
+    font-size: 2.2rem;
+    color: var(--text);
+}
+
+.priceWrapper {
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--primary);
+}
+
+
+.priceWrapper span {
+    font-size: 2rem;
+    color: red;
+    font-weight: 500;
+}
+
+
+.colorWrapper {
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--primary);
+    display: flex;
+    align-items: center;
+}
+
+.colorWrapper h4 {
+    font-size: 2.2rem;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.colorWrapper ul {
+    display: flex;
+    align-items: center;
+}
+
+.colorWrapper ul li {
+    list-style: none;
+    margin: 0 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.sizeWrapper {
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--primary);
+    display: flex;
+    align-items: center;
+}
+
+.sizeWrapper ul {
+    display: flex;
+    align-items: center;
+}
+
+.sizeWrapper ul li {
+    list-style: none;
+    margin: 0 1rem;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0 0.5rem;
+}
+
+.sizeWrapper h4 {
+    font-size: 2.2rem;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.quantityWrapper {
+    padding: 2rem 0;
+}
+
+.quantityWrapper p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.quantityWrapper span {
+    color: red;
+}
+
+.btnWrapper {
+    padding: 2rem 0;
+}
+
+.btnBuy {
+    background-color: #000;
+    color: white;
+    font-weight: 500;
+    width: 50px;
+}
+
+.descriptionWrapper {
+    padding: 2rem 0;
+
+}
+
+.descriptionWrapper h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.descriptionWrapper p {
+    font-size: 1.7rem;
+    color: var(--text);
+}
+
+
+.color {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.size {
+    cursor: pointer;
+}

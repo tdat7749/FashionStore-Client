@@ -1,0 +1,72 @@
+.filter::-webkit-scrollbar {
+    width: 5px;
+}
+
+.filter::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.filter::-webkit-scrollbar-thumb {
+    background: #1677ff;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99;
+}
+
+.filter {
+
+    width: 350px;
+    max-width: 350px;
+    height: 100vh;
+    background-color: #000;
+    opacity: initial;
+    overflow-y: scroll;
+}
+
+.closeIcon {
+    text-align: right;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.filterWrapper {
+    margin-top: 3rem;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.filterOption {
+    margin-bottom: 2rem;
+}
+
+.filterHeader {
+    font-size: 2.5rem;
+    color: var(--hover);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.parent {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.radioGroup {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.child {
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    border-left: none;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}

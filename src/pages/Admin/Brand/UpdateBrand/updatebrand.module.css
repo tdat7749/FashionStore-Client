@@ -1,0 +1,9 @@
+.container {
+    padding: 0 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {
+    margin: 2rem 0;
+}

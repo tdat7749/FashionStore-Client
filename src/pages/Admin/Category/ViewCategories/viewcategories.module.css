@@ -1,0 +1,17 @@
+.container {
+    padding: 0 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.title {
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.header h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--text);
+}

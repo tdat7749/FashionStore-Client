@@ -1,0 +1,15 @@
+.container {
+    padding: 0 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 80px;
+}

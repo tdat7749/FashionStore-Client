@@ -1,0 +1,19 @@
+.container {
+    padding: 0 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.textBasic {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb {
+    width: 100%;
+    background-color: var(--primary);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}

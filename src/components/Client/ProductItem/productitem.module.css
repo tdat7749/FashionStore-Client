@@ -1,0 +1,34 @@
+.img {
+    object-fit: cover;
+    height: 350px;
+    max-height: 350px;
+}
+
+.information {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--text);
+}
+
+.information h4 {
+    font-weight: 400;
+}
+
+.information h4:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+.information h5 {
+    color: red;
+}
+
+
+@media screen and (max-width: 576px) {
+    .img {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width:767px) {}

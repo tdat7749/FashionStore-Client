@@ -1,0 +1,53 @@
+.container {
+    padding: 0 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.orderDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.orderItem {
+    margin-bottom: 2rem;
+}
+
+.img {
+    width: 80px;
+    height: 100px;
+}
+
+.breadcrumb {
+    width: 100%;
+    background-color: var(--primary);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.orderWrapper {
+    margin-top: 2rem;
+}
+
+.orderInfo h4 span {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.orderSubtotal {
+    font-weight: 600;
+}
+
+.pagination {
+    text-align: right;
+}
+
+
+.orderFilter {
+    display: flex;
+    align-items: center;
+
+}
